@@ -1,0 +1,29 @@
+Identificação pessoal:nome,nascimento,telefone
+
+Dados profissionais:salario,profissão
+
+Endereçamento: logradouro,numero, bairro, cidade,uf
+
+
+reuzibilidade
+integridade dos dados
+multiplicidade dos dados
+
+create table tab_profissao (
+   id_profissao serial primary key not null,
+   nome varchar (30) not null
+ )
+   
+create tab_ficha_cadastral (
+   id_cadastro serial primary key not null,
+   nome varchar (30) not null,
+   id_profissao int not null,
+   
+ CONSTRAINT fk_ficha_cadastral_profissao(
+   FOREIGN KEY(id_profissao)
+   REFERENCES tab_profissao(id_profissao)
+   
+   
+   
+   
+   
