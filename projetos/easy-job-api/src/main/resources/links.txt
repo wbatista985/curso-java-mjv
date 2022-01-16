@@ -1,0 +1,15 @@
+https://examples.javacodegeeks.com/enterprise-java/spring/spring-jdbctemplate-crud-operations-tutorial/
+https://www.bezkoder.com/spring-boot-jdbctemplate-crud-example/
+https://springframework.guru/spring-jdbctemplate-crud-operations/
+
+
+1 - https://draculatheme.com/eclipse
+2 - https://marketplace.eclipse.org/content/darkest-dark-theme-devstyle
+3 - https://marketplace.eclipse.org/category/free-tagging/sts
+
+
+CREATE TABLE tab_profissao
+(
+    id BIGINT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    nome VARCHAR(100)
+);
